@@ -24,7 +24,6 @@ public class PutPatchAndDeleteExample {
                 then().
                 statusCode(200)
                 .log().all();
-
     }
     @Test
     public void testPatch(){
